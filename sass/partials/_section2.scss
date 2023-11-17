@@ -1,0 +1,107 @@
+.section2{
+   
+    border-radius: 32px;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    .first_block{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background: linear-gradient(180deg, #4f4f4fbd 0%, rgba(4, 18, 27, 0.64) 61.44%, #000000b0 100%);
+        flex-wrap: wrap;
+       
+        
+        .text_block{
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #FFFFFF;
+            padding-top: 32px;
+            padding-left: 32px;
+            padding-bottom: 16px;
+        }
+
+        img{
+            width: 540px;
+            height: 296px;
+            padding-top: 32px;
+        }
+    }
+
+    .secondary_blocks{
+        display: flex;
+        flex-direction: row;
+        gap:12px;
+        padding-top: 24px;
+       background: #000000;
+       flex-wrap: wrap;
+       justify-content: center;
+        .left_block{
+            color:#FFFFFF;
+            background: #1C2329;
+            width: 360px;
+            height: 174px;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            border-radius: 16px;            
+            display: flex;
+           align-items: center;
+           justify-content: center;
+           @media (max-width: 700px) {
+            width: 360px;
+            }
+        }
+
+        .center_block{
+            color:#FFFFFF;
+            background: #1C2329;
+            width: 444px;
+            height: 174px;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            border-radius: 16px;            
+            display: flex;
+           align-items: center;
+           justify-content: center;  
+           @media (max-width: 700px) {
+            width: 360px;
+            }
+        }
+
+        .right_block{
+            color:#FFFFFF;
+            background: #1C2329;
+            width: 342px;
+            height: 174px;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            border-radius: 16px;            
+            display: flex;
+           align-items: center;
+           justify-content: center;
+           @media (max-width: 700px) {
+            width: 360px;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,161 @@
+.section8{
+	max-width:1254px ;
+	margin: 150px auto 0;
+	padding: 0 10px;
+	@media(max-width: 900px){
+		margin-top: 20px;
+	}
+	.program2{
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 130px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		@media(max-width: 550px){
+			margin-bottom: 30px;
+		}
+		.main_text{
+			color: #ffffff;
+			font-variant-numeric: lining-nums proportional-nums;
+			font-family: Roboto;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 48px; /* 120% */
+			letter-spacing: -0.5px;
+            
+			@media(max-width: 550px){
+				font-size: 30px;
+			}
+		}
+		.submain_text{
+			.flex{
+				display: flex;
+				flex-direction: row;
+			}
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			@media(max-width: 900px){
+				flex-wrap: wrap;
+			}
+			.number{
+				color: #04121B;
+				text-align: right;
+				font-variant-numeric: lining-nums proportional-nums;
+				font-family: Roboto;
+				font-size: 64px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 72px; /* 112.5% */
+				letter-spacing: -0.8px;
+				margin: 0 30px 0 80px;
+				@media(max-width: 550px){
+					margin: 0 10px ;
+					font-size: 50px;
+				}
+			}
+			.text{
+				color: rgba(4, 18, 27, 0.64);
+				font-variant-numeric: lining-nums proportional-nums;
+				font-family: Roboto;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 26px; /* 144.444% */
+				letter-spacing: -0.05px;
+				@media(max-width: 550px){
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	.cours{
+		max-width:1254px;
+		border-top: 1px solid rgba(4, 18, 27, 0.16);;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.10);
+        padding: 20px 40px;
+        margin:   15px 0;
+		.block {
+			padding: 28px 0;
+			
+			cursor: pointer;
+			transition: width 0.3s,;
+			outline: none;
+			.content {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+				
+				.maintext{
+					color: var(--black-60, #999);
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 130%; /* 31.2px */
+                    letter-spacing: -0.24px;
+                    display: flex;
+                    flex-direction: row;
+                    p{
+                        margin-left: 20px;
+                        color: #ffffff;
+
+                    }
+					@media(max-width: 550px){
+						font-size: 20px;
+					}
+					
+				}
+				.lessons{
+					color: rgba(4, 18, 27, 0.48);
+					font-variant-numeric: lining-nums proportional-nums;
+					font-family: Roboto;
+					font-size: 24px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 32px; /* 133.333% */
+					letter-spacing: -0.2px;
+					@media(max-width: 550px){
+						font-size: 20px;
+					}
+				}
+			}
+			.additional-info {
+				height: 0;
+				overflow: hidden;
+				transition: max-height 0.3s; 
+				.hiden_block{
+					margin-top: 28px;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					.text_block{
+						max-width: 760px;
+						color: rgba(255, 255, 255, 0.64);
+						font-variant-numeric: lining-nums proportional-nums;
+						font-family: Roboto;
+						font-size: 18px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 26px; /* 144.444% */
+						letter-spacing: -0.05px;
+					}
+				}
+			}
+		}
+		.block.expanded {
+		
+			.additional-info {
+				height: auto;
+			}
+		}
+
+	}
+}

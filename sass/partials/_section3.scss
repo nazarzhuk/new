@@ -1,0 +1,127 @@
+.section3{
+    margin: 0 auto;
+    border-radius: 32px;
+    background: #1C2328;
+    max-width: 1170px;
+    padding: 20px 20px 90px;
+  
+    .flex_block{
+        margin-top: 160px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        @media (max-width: 1070px) {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            }
+        .leftText{
+            color: var(--skyeng-b-2-b-white, #FFF);
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Roboto;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 125% */
+            max-width: 270px;
+            ul{
+                margin-top: 50px;
+                margin-left: 20px;
+                list-style-type:disc;
+                li{
+                    margin-top: 20px;
+                    color: #fff;
+                    color: var(--skyeng-b-2-b-white, #FFF);
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 32px; /* 133.333% */
+                }
+            }
+        }
+        .imgblock{
+            background-image: url(../images/skying.png);;
+            width: 422px;
+            height: 420px;
+            @media (max-width: 1070px) {
+               margin: 20px 0 40px;
+                }
+                @media (max-width: 600px) {
+                   display: none;
+                     }
+            .backphoto{
+                margin: 190px 180px 200px 150px;
+                color: #0091FA;
+                text-align: center;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Roboto;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px; /* 66.667% */
+            }
+            .list{
+                margin-right: -50px;
+                margin-top: 115px;
+            }
+            ul{
+                margin-top: -295px;
+                display: flex;
+                flex-direction: column;
+                align-content: flex-end;
+                flex-wrap: wrap;
+                
+                li{
+                    color: var(--skyeng-b-2-b-blue-60, #00C1FF);
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    margin-right: -80px;
+                }
+            }
+        }
+        .rightText{
+            color: var(--skyeng-b-2-b-white, #FFF);
+            text-align: right;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; /* 133.333% */
+            margin-top: -90px;
+            max-width: 150px;
+            @media (max-width: 1070px) {
+                margin: 0;
+                max-width: 100%;
+                text-align: center;
+                 }
+            @media (max-width: 600px) {
+                text-align:left;
+                margin-top: 20px;
+                }
+            p{
+                margin-top: 25px;
+                color: var(--skyeng-b-2-b-gray-60, #999);
+                text-align: right;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px; /* 133.333% */
+                @media (max-width: 1070px) {
+                    text-align: center;
+                     }
+                @media (max-width: 600px) {
+                    text-align:left;
+                }
+            }
+        }
+    }
+}

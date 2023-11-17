@@ -1,0 +1,105 @@
+.section6{
+    margin: 0 auto;
+    max-width: 1170px;
+    border: 2px solid #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    .flex_help{
+
+    
+    img{
+        width: 72px;
+        height: 72px;
+        margin-top: 44px;
+        margin-left: 44px;
+        @media (max-width: 950px) {
+            display: none;
+            }
+    }
+
+    .main_text{
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-top: 60px;
+        margin-left: 44px;
+        .text_color{
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #00C1FF;
+        }
+
+    }
+
+    .sub_text{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #FFFFFF;  
+        margin-top: 110px; 
+        margin-left: 44px;     
+    }
+}
+    .form_block{
+        width: 488px;
+        height: 432px;
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 44px;
+        margin-bottom: 44px;
+        margin-right: 44px;
+        border-radius: 16px;
+        @media (max-width: 1000px) {
+            margin: 20px 0 0 ;
+            }
+        .form{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                width: 388px;
+                height: 74px;
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 42px;
+                letter-spacing: 0px;
+                margin-bottom: 10px;
+                color: #999999;
+                border-radius: 8px;
+                border: 0px;
+                @media (max-width: 600px) {
+                    width: 300px;
+                    }
+              
+            }
+            .button{
+                margin-top: 6px;
+                background: #0080C1;
+            }
+            ::placeholder{
+                color: #999999 ;
+                padding-left: 24px;
+            }
+        }
+        
+    }
+}

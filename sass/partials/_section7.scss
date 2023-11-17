@@ -1,0 +1,76 @@
+.section7{
+    max-width: 1170px;
+    margin: 0 auto;
+   margin-bottom: 72px;
+    .four_blocks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        .block{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 578px;
+            height: 304px;
+            background: linear-gradient(228.09deg, #1F1F1F 50%, #4B4B4B 100%);
+            border-radius: 16px;
+            margin-bottom: 16px;
+            @media (max-width: 600px) {
+                width: 350px;
+                
+                }
+            .flex_helper{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                @media (max-width: 600px) {
+                    justify-content: space-around;
+                    
+                    }
+                .block_text{
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 31px;
+                    letter-spacing: -0.01em;
+                    text-align: left;
+                    color: #FFFFFFA3;
+                    margin-top: 32px;
+                    margin-left: 32px;
+                    .text_color{
+                        color: #FFFFFF;
+                    }
+
+                }
+
+                .form{
+                    .button{
+                        background: #00C1FF;
+                        border: 0px;
+                        border-radius: 8px;
+                        color: #FFFFFF;
+                        width: 280px;
+                        height: 48px;
+                        margin-left: 32px;
+                        margin-bottom: 32px;
+
+                    }
+                }
+
+               
+            }
+            img{
+              
+                width: 196px;
+                margin-right: 42px;
+                @media (max-width: 600px) {
+                    display: none;
+                    }
+            }
+
+        }
+    }
+
+}
